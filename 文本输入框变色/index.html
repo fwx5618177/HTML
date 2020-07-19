@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/script">
+
+function writeIt(value) {
+	document.myfm.first_text.value=value;
+}
+
+</script>
+
+</head>
+
+<body bgcolor="#ffffff">
+	<form name="myfm">
+		<input type="text" name="first_text">
+		<input type="text" name="second_text" onchange="writeIt(this.value)">
+	
+	</form>
+
+
+
+</body>
+
+</html>
